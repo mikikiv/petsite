@@ -1,0 +1,48 @@
+---
+sidebar_label: Pet food and medicine
+sidebar_position: 1
+slug: food
+---
+
+# Food and Medicine
+
+Each pet requires **food/water**. Feeding is easy!
+
+
+## Food and Treats
+
+|               | Scout         | CJ                | Olympia           |
+| ------------: | ------------- | ----------------- | ----------------- |
+| **Amount**    | Self feeding  | 4 cups per day    | 3 cups per day    |
+| **Frequency** | Self feeding  | Morning and evening | Morning and evening |
+| **Quirks**    | Food is in the bathroom. | Eats while laying down. Paws food bowl for food. | Sneaks food from CJ's bowl. Also tries to sneak cat poops[^1]. Generally looks uncomfortable while eating. Will eat from puzzles too.| 
+| **Treats**    |Only eats treats from a flat surface|Treats as needed and for fun|Treats as needed and for fun[^2]. Loves a Kong with treats but needs to be contained to something safe for slobber |
+| **Allergies** | None | None | None |
+
+
+[^1]:See [bathroom](/docs/pets/scout#litterbox)
+[^2]:Will howl for treats!
+
+:::tip 
+Our dogs are notorious for not eating or finishing their meals at the expected times. They may eat less than expected while their parents are out of home.
+:::
+
+
+
+## Medicine
+Various issues come up on various occassions
+    
+### CJ's Old Man treats
+:::note Dynomax
+
+One treat per day is for helping keep CJ feel young. Split a treat in half so that he actually eats them. Routinely, we give them to him in the afternoon but anytime once per day is ok
+
+:::
+
+### Ear Stuff
+:::note Dynomax
+
+lorum ipsum
+
+:::
+
