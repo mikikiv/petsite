@@ -132,13 +132,12 @@ const config = {
       <% it.scripts.forEach((script) => { %>
         <link rel="preload" href="<%= it.baseUrl %><%= script %>" as="script">
       <% }); %>
-      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096'
-  })
-</script>
-
+      <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            server: '921192628727451648', // Olympia's server
+            channel: '948743337001771058' // #house-sitters
+        })
+      </script>
     </head>
     <body <%~ it.bodyAttributes %>>
       <%~ it.preBodyTags %>
