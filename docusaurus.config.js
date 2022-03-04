@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Pet Sitters Guide to Galaxy',
+  tagline: "So you're house sitting for us?",
+  url: 'https://home-taylerandmikey.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'mikikiv', // Usually your GitHub org/user name.
+  projectName: 'petsite', // Usually your repo name.
+  noIndex: true,
   plugins: [require.resolve('docusaurus-lunr-search')],
-  projectName: 'docusaurus', // Usually your repo name.
-  
   presets: [
     [
       'classic',
