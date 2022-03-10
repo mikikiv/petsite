@@ -39,6 +39,9 @@ const config = {
       }),
     ],
   ],
+  scripts: [
+    'https://kit.fontawesome.com/46ba255df9.js'
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -113,44 +116,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-  ssrTemplate: `<!DOCTYPE html>
-  <html <%~ it.htmlAttributes %>>
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="generator" content="Docusaurus v<%= it.version %>">
-      <% if (it.noIndex) { %>
-        <meta name="robots" content="noindex, nofollow" />
-      <% } %>
-      <%~ it.headTags %>
-      <% it.metaAttributes.forEach((metaAttribute) => { %>
-        <%~ metaAttribute %>
-      <% }); %>
-      <% it.stylesheets.forEach((stylesheet) => { %>
-        <link rel="stylesheet" href="<%= it.baseUrl %><%= stylesheet %>" />
-      <% }); %>
-      <% it.scripts.forEach((script) => { %>
-        <link rel="preload" href="<%= it.baseUrl %><%= script %>" as="script">
-      <% }); %>
-      <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-        new Crate({
-            server: '921192628727451648', // Olympia's server
-            channel: '948743337001771058' // #house-sitters
-        })
-      </script>
-    </head>
-    <body <%~ it.bodyAttributes %>>
-      <%~ it.preBodyTags %>
-      <div id="__docusaurus">
-        <%~ it.appHtml %>
-      </div>
-      <% it.scripts.forEach((script) => { %>
-        <script src="<%= it.baseUrl %><%= script %>"></script>
-      <% }); %>
-      <%~ it.postBodyTags %>
-    </body>
-  </html>
-  `
 };
 
 module.exports = config;
