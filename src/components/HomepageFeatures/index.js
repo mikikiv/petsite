@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Scout',
-    picture: '@site/static/img/olypmia.jpg',
+    title: 'CJ',
+    image: ('/img/cj.png'),
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Olympia',
-    picture: '@site/static/img/olypmia.jpg',
+    image: ('/img/olympia.jpg'),
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Scout',
-    picture: '@site/static/img/olypmia.jpg',
+    image: '/img/scout.jpg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -36,15 +36,14 @@ const FeatureList = [
   },
 ];
 
-function Feature({picture, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className={styles.featureSvg} alt={title} />
+        <img className={styles.featureSvg} src={image} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <img src={picture}></img>
         <p>{description}</p>
       </div>
     </div>
