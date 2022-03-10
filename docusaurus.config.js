@@ -40,7 +40,11 @@ const config = {
     ],
   ],
   scripts: [
-    'https://kit.fontawesome.com/46ba255df9.js'
+    {
+      src: 'https://kit.fontawesome.com/46ba255df9.js',
+      async: true,
+      crossorigin: 'anonymous',
+    }
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
