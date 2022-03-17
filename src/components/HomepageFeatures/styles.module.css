@@ -10,3 +10,44 @@
   width: 300px;
   object-fit: cover;
 }
+.petCard{
+  color: unset;
+  text-decoration: unset;
+  margin: var(--ifm-spacing-horizontal);
+}
+.petCard:hover{
+  color: unset;
+  text-decoration: unset;
+}
+.box{
+  width: 100%;
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: var(--ifm-global-spacing);
+  display: flex;
+  gap: 1rem;
+  line-height: var(--ifm-heading-line-height);
+  flex-wrap: wrap;
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+.box:hover{
+  border-color: var(--ifm-pagination-nav-color-hover);
+}
+
+.petName{
+  display: flex;
+  color: var(--ifm-link-hover-color);
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  height: max-content;
+  text-transform: uppercase;
+  width: auto;
+  text-align: top;
+}
+.imageStyle{
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  float: right;
+  min-width:175px;
+  height: 100%;
+  object-fit: cover;
+}
