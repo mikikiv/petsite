@@ -15,7 +15,8 @@
   color: unset;
   text-decoration: unset;
   margin: var(--ifm-spacing-horizontal);
- 
+  display: grid;
+  grid-auto-rows: 1fr; 
 }
 .petCard:hover{
   color: unset;
