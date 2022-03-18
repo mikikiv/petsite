@@ -10,7 +10,14 @@
   width: 300px;
   object-fit: cover;
 }
-
+.container{
+  margin: 0 auto;
+  max-width: var(--ifm-container-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 .petCard{
   color: unset;
   text-decoration: unset;
@@ -40,6 +47,7 @@
 
 .petName{
   display: flex;
+  flex: 1 1 0%;
   color: var(--ifm-link-hover-color);
   transform: rotate(180deg);
   writing-mode: vertical-lr;
@@ -48,9 +56,16 @@
   width: auto;
   text-align: top;
 }
+.imageContainer{
+  flex-basis: auto;
+  display: flex;
+}
 .imageStyle{
   border-radius: var(--ifm-pagination-nav-border-radius);
   min-width:175px;
   height: auto;
   object-fit: cover;
+  display: flex;
+  flex-flow: row;
+  
 }
