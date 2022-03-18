@@ -21,3 +21,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.container{
+  margin: 0 auto;
+  max-width: var(--ifm-container-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

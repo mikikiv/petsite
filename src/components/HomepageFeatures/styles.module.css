@@ -10,10 +10,12 @@
   width: 300px;
   object-fit: cover;
 }
+
 .petCard{
   color: unset;
   text-decoration: unset;
   margin: var(--ifm-spacing-horizontal);
+ 
 }
 .petCard:hover{
   color: unset;
@@ -21,6 +23,7 @@
 }
 .box{
   width: 100%;
+  min-width: 300px;
   border-radius: var(--ifm-pagination-nav-border-radius);
   border: 1px solid var(--ifm-color-emphasis-300);
   padding: var(--ifm-global-spacing);
@@ -46,7 +49,6 @@
 }
 .imageStyle{
   border-radius: var(--ifm-pagination-nav-border-radius);
-  float: right;
   min-width:175px;
   height: 100%;
   object-fit: cover;

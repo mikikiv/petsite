@@ -2,8 +2,7 @@ import React from 'react';
 import styles from './HomepageFeatures/styles.module.css';
 
 export default function PetCard({ name, href, imagePath, children, breed, age }) {
-    return <a className={styles.petCard} href={href}>
-        <div className={styles.box} > 
+    return <a className={styles.petCard} href={href}><div className={styles.box} > 
             <h1 className={styles.petName}>{name}</h1>
             <div style={{flex:'6', marginTop: '-.2em'}}>
 
