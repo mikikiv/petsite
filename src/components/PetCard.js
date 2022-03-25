@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HomepageFeatures/styles.module.css';
+import styles from '@site/src/components/styles.module.css';
 
 export default function PetCard({ name, href, imagePath, children, breed, age }) {
     return <a className={styles.petCard} href={href}><div className={styles.box} > 
@@ -12,7 +12,7 @@ export default function PetCard({ name, href, imagePath, children, breed, age })
                 {/* button doesn't do anything for now <button>{successMessage}?</button> */}
             </div>
             {imagePath.length > 0 && 
-                <div style={{flex:'5'}}>
+                <div className={styles.imageContainer}>
                     <img className={styles.imageStyle} src={imagePath} />
                 </div>
             }

@@ -36,7 +36,9 @@ There are 4 devices in the house:
 
 ## TV
 
+Our TV is hooked up to nearly all the streaming services via the FireTV stick. You only need one remote to control everything you need (unless you start needing to access different inputs, in that case the tv remote is in the drawer below the tv).
 There are several apps built into the FireTV in the living room. 
+For each service, use the profile Mikey if available, and then Mikayler or TayMik, or Tayler, whichever is available first. See 
 
 * AmazonPrime
 * Netflix
