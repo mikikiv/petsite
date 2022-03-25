@@ -8,7 +8,7 @@ We hope your stay in our home is comfortable. Here are some resources for you:
 
 Like where you can sleep and stuff. 
 
-## [<i class="fa-solid fa-kitchen-set"></i> Kitchen Stuff](human-care/food-and-drink)
+## [<i class="fa-solid fa-kitchen-set"></i> Kitchen Stuff](human-care/kitchen)
 
 Because we humans have needs too
 
