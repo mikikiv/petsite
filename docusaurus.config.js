@@ -10,7 +10,7 @@ const config = {
   tagline: "So you're house sitting for us?",
   url: 'https://home-taylerandmikey.netlify.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'mikikiv', // Usually your GitHub org/user name.
