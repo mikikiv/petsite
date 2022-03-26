@@ -9,8 +9,13 @@ We have all sorts of stuff connected to internet in the house!
 
 ## Internet / Wifi
 
-[![Connect to the wifi](https://chart.googleapis.com/chart?cht=qr&chl=WIFI%3AT%3AWPA%3BS%3Anetworknotfound%3BP%3Acjtetonscout16%3BH%3A%3B&chs=180x180&choe=UTF-8&chld=L|2)](wifi://:cjtetonscout16@networknotfound)
+<span style={{float:'right'}}>
 
+<div style = {{margin:'0 auto', width:'max-content'}}>Scan for wifi</div>
+
+[![Connect to the wifi](@site/static/img/wifi.svg?width=300px&height=300px)](wifi://:cjtetonscout16@networknotfound)
+
+</span>
 There are computers in the house, but they are off-limits and password protected.
 
 Feel free to clear some desk space for yourself if you need!
@@ -50,5 +55,7 @@ For each service, use the profile Mikey if available, and then Mikayler or TayMi
 
 These accounts are a mix of our own and friends and families :laughing:  
 Feel free to watch whatever you want, just don't create or delete any profiles :thumbsup:
+
+Aim to use Mikey's and Tayler's profile when available
 
 :::
