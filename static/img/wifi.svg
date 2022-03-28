@@ -2,10 +2,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 width="300px" height="300px" viewBox="0 0 693 693"  xml:space="preserve">
-<rect x="0" y="0" width="300" height="300" fill="rgba(0,0,0, 0)" /><g transform="translate(42,42)"><g><defs>
+<rect x="0" y="0" width="300" height="300" */background*/ fill="rgba(0,0,0, 0)" /><g transform="translate(42,42)"><g><defs>
     <linearGradient gradientTransform="rotate(90)" id="grad">
-    <stop offset="5%" stop-color="rgb(0,148,0)" />
-    <stop offset="95%" stop-color="rgb(0,148,0)" />
+    <stop offset="5%" stop-color="var(--ifm-color-primary-contrast-foreground)" />
+    <stop offset="95%" stop-color="var(--ifm-color-primary-contrast-foreground)" />
     </linearGradient>
 <mask id="gmask"><g>
 <g transform="translate(168,0) scale(0.21,0.21)"><g transform="" style="fill: rgb(255, 255, 255);">

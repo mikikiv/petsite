@@ -9,13 +9,14 @@ We have all sorts of stuff connected to internet in the house!
 
 ## Internet / Wifi
 
-<span style={{float:'right'}}>
+<span style={{float:'right', color:'var(--ifm-color-primary-contrast-foreground)'}}>
 
 <div style = {{margin:'0 auto', width:'max-content'}}>Scan for wifi</div>
 
 [![Connect to the wifi](@site/static/img/wifi.svg?width=300px&height=300px)](wifi://:cjtetonscout16@networknotfound)
 
 </span>
+
 There are computers in the house, but they are off-limits and password protected.
 
 Feel free to clear some desk space for yourself if you need!
