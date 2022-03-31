@@ -22,7 +22,9 @@
     "docusaurus-lunr-search": "^2.1.15",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   },
   "browserslist": {
     "production": [
@@ -35,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.3.0",
+    "puppeteer": "^13.5.2"
   }
 }
