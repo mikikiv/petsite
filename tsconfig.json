@@ -1,3 +1,17 @@
 {
-    "extends": "@tsconfig/docusaurus/tsconfig.json"
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["es2018"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "baseUrl": "."
+  },
+    "extends": "@tsconfig/docusaurus/tsconfig.json",
 }
