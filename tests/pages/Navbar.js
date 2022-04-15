@@ -3,9 +3,8 @@ const { I } = inject();
 module.exports = {
   NavigationLinks: {
     Home: 'My Site',
-    Docs: 'Tutorial',
+    Docs: 'Guide',
     Blog: 'Blog',
-
   },
   DarkModeIcon: '.darkToggleIcon_node_modules-@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module',
   LightModeIcon: '.lightToggleIcon_node_modules-@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module',

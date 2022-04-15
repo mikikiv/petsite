@@ -19,6 +19,10 @@ Scenario('Switch to dark mode', ({ I }) => {
     I.click(Navbar.ColorModeIcon)
     // need a way to verify the page has changed colors
 });
+Scenario('Switch to dark mode @test', ({ I }) => {
+    I.click(Navbar.ColorModeIcon)
+    // need a way to verify the page has changed colors
+});
 
 
 

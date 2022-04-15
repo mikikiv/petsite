@@ -11,7 +11,7 @@ setCommonPlugins();
 
 
 exports.config = {
-  tests: './*_test.js',
+  tests: './tests/*_test.js',
   output: './output',
   helpers: {
     Puppeteer: {
@@ -22,9 +22,9 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js',
-    Navbar: './pages/Navbar.js',
-    LeftSidebar: './pages/LeftSidebar.js',
+    I: './tests/steps_file.js',
+    Navbar: './tests/pages/Navbar.js',
+    LeftSidebar: './tests/pages/LeftSidebar.js',
   },
   bootstrap: null,
   mocha: {},
