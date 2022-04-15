@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from '/styles.module.css';
+import styles from '../styles.module.css';
+import AllPets from '../AllPets';
 
 const FeatureList = [
   {
@@ -36,6 +37,7 @@ const FeatureList = [
   },
 ];
 
+// not being used
 function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
@@ -50,14 +52,13 @@ function Feature({image, title, description}) {
   );
 }
 
+//used to keep page formatting on homepage
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <AllPets />
         </div>
       </div>
     </section>

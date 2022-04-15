@@ -4,7 +4,8 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import PetCard from '../components/PetCard';
+import AllPets from '../components/AllPets';
+import HomepageFeatures from '../components/HomepageFeatures/index.js'
 
 
 function HomepageHeader() {
@@ -35,12 +36,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <div className={styles.homeContainer}>
-        <PetCard name="Olympia" href="/docs/pets/olympia" imagePath="/img/olympia.jpg" breed="Basenji Mix" age="3 years">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </PetCard>
-        <PetCard name="Scout" href="/docs/pets/scout" imagePath="/img/scout.jpg" breed="cat" age="5 years">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </PetCard>
-        <PetCard name="CJ" href="/docs/pets/cj" imagePath="/img/cj.png" breed="German Shephard" age="10 years">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </PetCard>
-</div>
-
+        <HomepageFeatures />
       </main>
     </Layout>
   );
