@@ -13,14 +13,14 @@ tayler:
 cj:
   name: CJ
   title: first dog
-  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/cj.png
+  image_url: /img/cj.png
 
 olympia:
   name: Olympia
   title: smol dog
-  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/olympia.jpg
+  image_url: /img/olympia.jpg
 
 scout:
   name: Scout
   title: Princess
-  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/scout.jpg
+  image_url: /img/scout.jpg
