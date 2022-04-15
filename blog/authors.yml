@@ -1,17 +1,26 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+mikey:
+  name: Mikey
+  title: Site Maintainer and Pet Dad
+  url: https://www.instagram.com/mikikiv/
+  image_url: https://avatars.githubusercontent.com/u/46366395?v=4
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+tayler:
+  name: Tayler
+  title: Chief Editor and Pet Mom
+  url: https://www.instagram.com/taylersally_v/
+  image_url: https://media-exp1.licdn.com/dms/image/C4D03AQEG7f87tPp2xw/profile-displayphoto-shrink_800_800/0/1620405880207?e=1655337600&v=beta&t=sKvWtUdfNQh7i1czuu5sAkSXOAi9bVl7aM285OHT2I8
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+cj:
+  name: CJ
+  title: first dog
+  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/cj.png
+
+olympia:
+  name: Olympia
+  title: smol dog
+  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/olympia.jpg
+
+scout:
+  name: Scout
+  title: Princess
+  image_url: https://github.com/mikikiv/petsite/blob/master/static/img/scout.jpg
