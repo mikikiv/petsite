@@ -9,11 +9,28 @@ We have all sorts of stuff connected to internet in the house!
 
 ## Internet / Wifi
 
-[![Connect to the wifi](https://chart.googleapis.com/chart?cht=qr&chl=WIFI%3AT%3AWPA%3BS%3Anetworknotfound%3BP%3Acjtetonscout16%3BH%3A%3B&chs=180x180&choe=UTF-8&chld=L|2)](wifi://:cjtetonscout16@networknotfound)
+<div style={{float:'right'}}>
+    <img
+    src={require('../../static/img/qrcode.png').default}
+    alt="QR Code to join wifi"
+    height="250vw"
+    width="250vw"
+    href='WIFI%3AT%3AWPA%3BS%3Anetworknotfound%3BP%3Acjtetonscout16%3BH%3A%3B'
+    name='WifiQR'
+    />
+    <br/>
+    <label for='WifiQR' style={{marginLeft:'auto', marginRight:'auto', fontSize:'12px' }}>Scan/screenshot for house wifi</label>
+</div>
 
-There are computers in the house, but they are off-limits and password protected.
 
-Feel free to clear some desk space for yourself if you need!
+There are computers in the house, but they are off-limits and password protected. Our wifi speeds are pretty good and you should be able to even find a loose ethernet cable on the right desk. Scan or Screenshot this code to get connected to the wifi. 
+
+Otherwise, heres the creds you need: 
+
+`networknotfound` <br/> 
+`cjtetonscout16`
+
+Feel free to clear some desk space for yourself if you need
 
 ## Alexa
 

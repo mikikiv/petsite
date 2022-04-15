@@ -1,6 +1,10 @@
 ---
-sidebar_label: Kitchen stuff
+sidebar_label: Appliances
 sidebar_position: 2
+tags:
+ - humans
+ - appliances
+ - machines
 ---
 
 # Kitchen
