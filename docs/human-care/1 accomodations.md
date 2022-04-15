@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
 slug: accomodations
+tags:
+ - sleep
+ - humans
 ---
 
 # Accomodations
@@ -56,5 +59,5 @@ Feel free to make space on the desks for you own activities. The desktop keyboar
 <details>
 <summary>Computer <i class="fa-solid fa-computer"></i></summary>
 
-Please don't use the computers at our desks. They are password protected anyway.
+Please don't use the computers at our desks. They are password protected anyway. Feel free to plug into the docks to use our monitors with your own computer
 </details>
