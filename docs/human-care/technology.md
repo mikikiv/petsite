@@ -23,6 +23,7 @@ We have all sorts of stuff connected to internet in the house!
 </div>
 
 
+
 There are computers in the house, but they are off-limits and password protected. Our wifi speeds are pretty good and you should be able to even find a loose ethernet cable on the right desk. Scan or Screenshot this code to get connected to the wifi. 
 
 Otherwise, heres the creds you need: 
@@ -67,5 +68,7 @@ For each service, use the profile Mikey if available, and then Mikayler or TayMi
 
 These accounts are a mix of our own and friends and families :laughing:  
 Feel free to watch whatever you want, just don't create or delete any profiles :thumbsup:
+
+Aim to use Mikey's and Tayler's profile when available
 
 :::
