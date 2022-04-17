@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/mikikiv/petsite/',
+          editUrl: 'https://github.com/mikikiv/petsite/edit/staging',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/mikikiv/petsite/',
+            'https://github.com/mikikiv/petsite/edit/staging',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,18 +80,9 @@ const config = {
                 label: 'Guide',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'Docusaurus',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
