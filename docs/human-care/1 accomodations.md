@@ -1,9 +1,11 @@
 ---
 sidebar_position: 1
 slug: accomodations
+title: Accomodations
 tags:
  - sleep
  - humans
+hide_title: true
 ---
 
 # Accomodations
@@ -11,7 +13,7 @@ tags:
 We hope you are comfortable in our home. We are thankful for you taking care of our pets and our spaces. 
 
 
-## The guest bedroom 
+## Guest Bedroom 
 
 The bedroom at the end of the hallway is typically setup for you. The bed is a folding couch, layed out flat for sleeping. 
 - Additional sheets are under the bed. 
@@ -19,7 +21,23 @@ The bedroom at the end of the hallway is typically setup for you. The bed is a f
 
 If you are confident in playing instruments, you are welcome to play with the guitars hanging on the wall.
 
-## The living room
+## Bathroom
+
+> Keep the door open for Scoutie whenever possible. Without access to her litterbox she may have an accident on the guest bed
+
+
+:::info Shower 
+
+* Hot and cold are backward. 
+* The drain is not great at draining.
+* Feel free to use the pump shampoo/soaps
+
+Towels for the shower are in one of the cupboards below the bathroom sink. There's also good towels in there for use in the shower as a scrubber.
+
+::: 
+
+
+## Living Room
 
 ### Couch <i class="fa-solid fa-couch"></i>
 

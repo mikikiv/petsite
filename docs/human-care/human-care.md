@@ -1,5 +1,6 @@
 ---
 title: Humans
+hide_title: true
 ---
 # Humans <i class="fa-solid fa-person-half-dress"></i>
 We hope your stay in our home is comfortable. Here are some resources for you:

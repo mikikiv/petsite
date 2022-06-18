@@ -5,6 +5,7 @@ tags:
  - humans
  - appliances
  - machines
+hide_title: true
 ---
 
 # Kitchen

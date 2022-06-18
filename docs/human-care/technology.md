@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technology
 sidebar_position: 4
+hide_title: true
 ---
 
 # Technology
