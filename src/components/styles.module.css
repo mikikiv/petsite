@@ -1,71 +1,69 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	width: 100%;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 300px;
-  object-fit: cover;
+	height: 200px;
+	width: 300px;
+	object-fit: cover;
 }
-.container{
-  margin: 0 auto;
-  max-width: var(--ifm-container-width);
-  padding: 0 var(--ifm-spacing-horizontal);
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.container {
+	margin: 0 auto;
+	max-width: var(--ifm-container-width);
+	padding: 0 var(--ifm-spacing-horizontal);
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.petCard{
-  color: unset;
-  text-decoration: unset;
-  margin: var(--ifm-spacing-horizontal);
-  display: grid;
-  grid-auto-rows: 1fr; 
+.petCard {
+	color: unset;
+	text-decoration: unset;
+	margin: var(--ifm-spacing-horizontal);
+	display: grid;
+	grid-auto-rows: 1fr;
 }
-.petCard:hover{
-  color: unset;
-  text-decoration: unset;
+.petCard:hover {
+	color: unset;
+	text-decoration: unset;
 }
-.box{
-  width: 100%;
-  min-width: 300px;
-  border-radius: var(--ifm-pagination-nav-border-radius);
-  border: 1px solid var(--ifm-color-emphasis-300);
-  padding: var(--ifm-global-spacing);
-  display: flex;
-  gap: 1rem;
-  line-height: var(--ifm-heading-line-height);
-  flex-wrap: wrap;
-  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+.box {
+	border-radius: var(--ifm-card-border-radius);
+	border: 1px solid var(--ifm-color-emphasis-300);
+	display: flex;
+	line-height: var(--ifm-heading-line-height);
+	flex-wrap: wrap;
+	transition: border-color var(--ifm-transition-fast)
+		var(--ifm-transition-timing-default);
 }
-.box:hover{
-  border-color: var(--ifm-pagination-nav-color-hover);
+.box:hover {
+	border-color: var(--ifm-pagination-nav-color-hover);
 }
 
-.petName{
-  display: flex;
-  flex: 1 1 0%;
-  color: var(--ifm-link-hover-color);
-  transform: rotate(180deg);
-  writing-mode: vertical-lr;
-  height: max-content;
-  text-transform: uppercase;
-  width: auto;
-  text-align: top;
+.petName {
+	display: flex;
+	flex: 1 1 0%;
+	color: var(--ifm-link-hover-color);
+	transform: rotate(180deg);
+	writing-mode: vertical-lr;
+	height: max-content;
+	text-transform: uppercase;
+	width: auto;
+	text-align: top;
 }
-.imageContainer{
-  flex-basis: auto;
-  display: flex;
+.imageContainer {
+	flex-basis: auto;
+	display: flex;
+	object-fit: fill;
+	height: inherit;
+	width: auto;
 }
-.imageStyle{
-  border-radius: var(--ifm-pagination-nav-border-radius);
-  min-width:175px;
-  height: auto;
-  object-fit: cover;
-  display: flex;
-  flex-flow: row;
-  
+.imageStyle {
+	min-width: 175px;
+	min-height: 250px;
+	object-fit: cover;
+	display: flex;
+	flex-flow: row;
 }
