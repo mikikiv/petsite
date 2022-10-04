@@ -6,34 +6,67 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+	--ifm-color-primary: #33557c;
+	--ifm-color-primary-dark: #2e4c70;
+	--ifm-color-primary-darker: #2b4869;
+	--ifm-color-primary-darkest: #243b57;
+	--ifm-color-primary-light: #385d88;
+	--ifm-color-primary-lighter: #3b628f;
+	--ifm-color-primary-lightest: #69afff;
+	--hero-background: linear-gradient(
+		60deg,
+		#305b8c 0%,
+		#2760a2 66%,
+		#41648f 90%
+	);
+	--footer-background-gradient: var(--ifm-color-primary);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+	--ifm-color-primary: #69afff;
+	--ifm-color-primary-dark: #57a5ff;
+	--ifm-color-primary-darker: #459cff;
+	--ifm-color-primary-darkest: #3392ff;
+	--ifm-color-primary-light: #8dc2ff;
+	--ifm-color-primary-lighter: #9fccff;
+	--ifm-color-primary-lightest: #d5e9ff;
+	--ifm-background-color: #4d5462;
+	--hero-background: linear-gradient(
+		60deg,
+		#305b8c 0%,
+		#41648f 66%,
+		#2760a2 90%
+	);
+	--footer-background-gradient: linear-gradient(
+		140deg,
+		#17182a 15%,
+		#181820 50%,
+		#17182f 78%
+	);
+	--footer-background-color: grayscale(90%);
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+	background-color: rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
 }
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero__title,
+.hero__subtitle {
+	color: white;
+}
+
+.hero {
+	background: var(--hero-background);
+}
+.footer--dark {
+	background: var(--footer-background-gradient);
+	filter: var(--footer-background-color);
 }
