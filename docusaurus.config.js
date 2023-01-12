@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
 	title: 'Pet Sitters Guide to Galaxy',
 	tagline: "So you're house sitting for us?",
-	url: 'https://home-taylerandmikey.netlify.app',
+	url: 'https://home.taylerandmikey.com/',
 	baseUrl: '/',
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
@@ -25,12 +25,12 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
-					editUrl: 'https://github.com/mikikiv/petsite/edit/staging',
+					editUrl: 'https://github.com/mikikiv/petsite/edit/master',
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
-					editUrl: 'https://github.com/mikikiv/petsite/edit/staging',
+					editUrl: 'https://github.com/mikikiv/petsite/edit/master',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -48,6 +48,10 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				defaultMode: 'dark',
+				disableSwitch: true,
+			},
 			navbar: {
 				title: '',
 				logo: {
@@ -89,7 +93,7 @@ const config = {
 				copyright: `Copyright © ${new Date().getFullYear()} Mikey and Tayler's Petsite, Inc. Built with Docusaurus.`,
 			},
 			prism: {
-				theme: lightCodeTheme,
+				theme: darkCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
 		}),

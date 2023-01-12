@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '@site/src/components/styles.module.css'
+import Link from '@docusaurus/Link'
 
 /* children is where the content of the body goes */
 export default function PetCard({
@@ -11,7 +12,7 @@ export default function PetCard({
 	age,
 }) {
 	return (
-		<a className={styles.petCard} href={href}>
+		<Link className={styles.petCard} href={href}>
 			<div className={styles.box}>
 				<div className='card'>
 					{imagePath.length > 0 && (
@@ -28,6 +29,6 @@ export default function PetCard({
 					</div>
 				</div>
 			</div>
-		</a>
+		</Link>
 	)
 }
