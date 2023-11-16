@@ -10,12 +10,26 @@ import styles from '@site/src/pages/index.module.css'
 
 These are the pets
 <div className={styles.homeContainer}>
+
+<PetCard
+  name="CJ"
+  href="/docs/pets/cj"
+  imagePath="/img/cj.png"
+  displayBreed={true}
+  displayBirthday={true}
+>
+  CJ was born July 20 2011 and been a part of Tayler's family since birth.
+  His parents, Chato and Molia, were part of Tayler's grandparents family
+  and also gave CJ two brothers and a sister who stayed in the family, and
+  5 others that went to other families.
+</PetCard>
+
 <PetCard
   name="Olympia"
   href="/docs/pets/olympia"
   imagePath="/img/olympia.jpg"
-  breed="Basenji Mix"
-  birthday="2019/09/10"
+  displayBreed={true}
+  displayBirthday={true}
   children="Our little monster was born September 2018. She makes funny sounds and
   can have a ton of energy. We know that she is just the perfect little
   dog. Just over 40 pounds of pure muscle, don't let her crash into your
@@ -25,8 +39,8 @@ These are the pets
   name="Scout"
   href="/docs/pets/scout"
   imagePath="/img/scout.jpg"
-  breed="cat"
-  birthday='2016/05/14'
+  displayBreed={true}
+  displayBirthday={true}
 >
   Scout was born in 2016 in a truck yard in Southern California. She came
   to our family as a tiny tiny cat and always ruled the house, until CJ
@@ -35,16 +49,4 @@ These are the pets
   scratches and friendly bites.
 </PetCard>
 
-<PetCard
-  name="CJ"
-  href="/docs/pets/cj"
-  imagePath="/img/cj.png"
-  breed="German Shephard"
-  birthday='2011/07/10'
->
-  CJ was born July 20 2011 and been a part of Tayler's family since birth.
-  His parents, Chato and Molia, were part of Tayler's grandparents family
-  and also gave CJ two brothers and a sister who stayed in the family, and
-  5 others that went to other families.
-</PetCard>
 </div>

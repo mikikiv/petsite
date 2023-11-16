@@ -23,7 +23,7 @@
 	text-decoration: unset;
 	margin: var(--ifm-spacing-horizontal);
 	display: grid;
-	grid-auto-rows: 1fr;
+	justify-content: center;
 }
 .petCard:hover {
 	color: unset;
@@ -66,4 +66,12 @@
 	object-fit: cover;
 	display: flex;
 	flex-flow: row;
+}
+
+/* a group .petCards should stack when the page is narrow */
+.cardGroup{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
 }
