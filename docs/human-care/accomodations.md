@@ -10,17 +10,13 @@ hide_title: true
 
 # Accomodations
 
-We hope you are comfortable in our home. We are thankful for you taking care of our pets and our spaces. 
+We hope you are comfortable in our home. We are thankful for you taking care of our pets and our space.
 
 
-## Guest Bedroom 
+## Guest Bedroom
 
 The bedroom across from the bathroom is setup for you. 
-- Additional sheets are under the bed
-- Additional blankets are in the cabinet between the office and bathroom
-  - Towels available here too
-
-If you are confident in playing instruments, you are welcome to play with the guitars/piano.
+- Additional sheets and blankets are in drawers under the bed
 
 ## Bathroom
 
@@ -33,13 +29,18 @@ Towels for the shower are in the cabinet between the bathroom and office. There'
 ::: 
 
 
-## Living Room
+## Living Room (front room)
+
+
+The couch is big and comfy, can slide around a bit.
+
+The dogs are allowed on the couch :thumbsup: 
+
+
+## Family Room (back room)
 
 ### Couch <i class="fa-solid fa-couch"></i>
-
-The couch is also a pull out bed in the case that you want to sleep in the living room.
-
-The dogs can be on the couch :thumbsup: 
+This couch has a pull out bed if you want to use. There's probably not sheets on it though. 
 
 
 ### Other things 
@@ -47,26 +48,26 @@ The dogs can be on the couch :thumbsup:
 <details open>
 <summary>The TV <i class="fa-solid fa-tv"></i></summary>
 
-You only need one remote. Watch your heart away!
+You only need the one Alexa remote. Watch your heart away!
 
 |[See the TV section](/docs/human-care/technology#TV)|
 |---|
 
 </details>
 
-<details>
+<!-- <details>
 <summary>Record Player <i class="fa-solid fa-record-vinyl"></i></summary>
 
 The record player should have some record in it right now. To listen to a record, the TV must be off. Just press the `play` button and it will work. Other records are available in the cabinet door nearby. The Selena record has a scratch that causes it to skip a bit sometimes. The other records are all functional.
     Please use the buttons to operate the player if you aren't used to using a record player already.
-</details>
+</details> -->
 
 
 ## Office
 <details open>
 <summary>Desks</summary>
 
-Feel free to make space on the desks for you own activities. The desktop keyboard can be pushed back for a good amount of space for a laptop. You might even find some loose cables that would allow you to utilize the additional monitors at the desk, which is ok to do.
+Feel free to make space on the desks for you own activities. You might even find some loose cables that would allow you to utilize the additional monitors at the desk, which is ok to do.
 </details>
 
 <details>

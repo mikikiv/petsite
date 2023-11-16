@@ -19,12 +19,10 @@ Honestly, probably not much. With the sole exception of the last servings of cer
 Theres a water/ice dispenser on the front of the fridge. 
 
 ### Dishwasher
-The dishwasher is used often in our house. Look for the ` clean | dirty ` magnet to know if the dishes are supposedly clean or dirty.
-Sometimes, white dishes come out with little brown spots; I think its like rusty water spots; haven't figured that out yet, but the spots can be wiped with a paper townl
+The dishwasher is used often in our house. Look for the ` clean | dirty ` magnet to know if the dishes are supposedly clean or dirty. Soap for the dishwasher is in one of the cabinets near it.
 
 ## Laundry Room
 
-Scouties litter box lives here for now. 
 ### Washer Mashine
 Works like how you'd expect most of the time. Nothing special here...
 
@@ -33,4 +31,4 @@ Super noisey sometimes. It's ok.
 Empty the lint thing like you would on any other dryer please
 
 ### Bathroom #2
-This bathroom is currently not working as expected. The toilet has an internal leak; its ok to use, but we prefer to leave this room as off limits as much as possible. The run in there now is recovering from pet accidents.
+Yep, its a bathroom. Feel free to use it

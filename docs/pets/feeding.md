@@ -15,7 +15,7 @@ Each pet requires **food/water**. Feeding is easy!
 | ------------: | --- | --- | ---------------------------------- |
 |    **Amount** | 1/2 cup per day | 2 cups per day  | 1 cups per day           |
 | **Frequency** | Morning and evening     (she will wake you up at 3am if you forget)                    | Morning and evening                 | Morning and evening            |
-|    **Quirks** | Food and bowl is in the gym   | Eats while laying down often. Rings his food bowl like a bell for when hungry, but sometimes for fun.  | Sneaks food from CJ's bowl. Also tries to sneak cat poops[^1]. Generally looks uncomfortable while eating. Will eat from puzzles too. |
+|    **Quirks** | Food and bowl near the dining table above litter box   | Eats while laying down often. Rings his food bowl like a bell for when hungry, but sometimes for fun.  | Sneaks food from CJ's bowl. Also tries to sneak cat poops[^1]. Generally looks uncomfortable while eating. Loves feeding from puzzles. |
 |    **Treats** | Only eats treats from a flat surface | Treats as needed and for fun      | Treats as needed and for fun[^2].        |
 | **Allergies** | None    | None   |  None   |
 | **Medicines** | None   | [Dynomax](#cjs-old-man-treats), 1 per breakfast. Easier to feed when broken up a bit. Carprofen, 50mg each meal (break pills in half) | None |
@@ -46,13 +46,7 @@ This is kind of a pain medicine. Helps CJ stay healthy/active. 50mg per meal, so
 
 :::
 
-### Ear Stuff
 
-:::note Dynomax
-
-If the dogs are needing their ears cleaned because they keep trying to fly away. Not typical that you'll need to use this.
-
-:::
 
 ### Heartworm medicine
 

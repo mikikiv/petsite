@@ -2,22 +2,22 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from '../styles.module.css';
 import AllPets from '../AllPets';
+import PetFacts from '../PetFacts'
 
 const FeatureList = [
   {
     title: 'CJ',
-    image: ('/img/cj.png'),
+    image: '/img/cj.png',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
-      
     ),
   },
   {
     title: 'Olympia',
-    image: ('/img/olympia.jpg'),
+    image: '/img/olympia.jpg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -35,10 +35,10 @@ const FeatureList = [
       </>
     ),
   },
-];
+]
 
 // not being used
-function Feature({image, title, description}) {
+function Feature({ image, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -49,18 +49,22 @@ function Feature({image, title, description}) {
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 //used to keep page formatting on homepage
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          <AllPets />
-        </div>
+    <>
+      <div className="row">
+        <PetFacts
+          cj={['Walks', 'Treats', 'Sniffing', 'Car rides']}
+          olympia={['Making noises', 'Cuddling', 'Running fast']}
+          scout={['Chasing zipties', 'Sleeping', 'Eating', 'Open doors']}
+        >
+          Most Favorite things:
+        </PetFacts>
       </div>
-    </section>
-  );
+    </>
+  )
 }
