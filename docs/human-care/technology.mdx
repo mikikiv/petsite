@@ -4,10 +4,6 @@ sidebar_position: 4
 hide_title: true
 ---
 import WifiQRCode, {WifiAsText} from '@site/src/components/WifiQRCode'
-const wifi = {
-  ssid: 'NetworkNotFound',
-  password: 'cjtetonscout16'
-}
 
 
 
@@ -21,7 +17,7 @@ We have all sorts of stuff connected to internet in the house!
 Scan to connect to wifi
 
 There are computers in the house, but they are off-limits and password protected. Our wifi speeds are pretty good and you should be able to even find a loose ethernet cable on the right desk. Scan or Screenshot this code to get connected to the wifi.
-<WifiQRCode ssid={wifi.ssid} password={wifi.password} />
+<WifiQRCode ssid={'NetworkNotFound'} password={'cjtetonscout16'} />
 
 
 Feel free to clear some desk space for yourself if you need
