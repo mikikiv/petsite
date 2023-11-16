@@ -20,8 +20,8 @@ Each pet requires **food/water**. Feeding is easy!
 | **Allergies** | None    | None   |  None   |
 | **Medicines** | None   | [Dynomax](#cjs-old-man-treats), 1 per breakfast. Easier to feed when broken up a bit. Carprofen, 50mg each meal (break pills in half) | None |
 
-[^2]: See [bathroom](/docs/pets/scout#litterbox)
-[^1]: Will howl for treats!
+[^1]: See [bathroom](/docs/pets/scout#litterbox)
+[^2]: Will howl for treats!
 
 :::tip
 Our dogs are notorious for not eating or finishing their meals at the expected times. They may eat less than expected while their parents are out of home.
