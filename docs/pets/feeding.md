@@ -18,7 +18,7 @@ Each pet requires **food/water**. Feeding is easy!
 |    **Quirks** | Food and bowl near the dining table above litter box   | Eats while laying down often. Rings his food bowl like a bell for when hungry, but sometimes for fun.  | Sneaks food from CJ's bowl. Also tries to sneak cat poops[^1]. Generally looks uncomfortable while eating. Loves feeding from puzzles. |
 |    **Treats** | Only eats treats from a flat surface | Treats as needed and for fun      | Treats as needed and for fun[^2].        |
 | **Allergies** | None    | None   |  None   |
-| **Medicines** | None   | [Dynomax](#cjs-old-man-treats), 1 per breakfast. Easier to feed when broken up a bit. Carprofen, 50mg each meal (break pills in half) | None |
+| **Medicines** | None   | [Dasuquin](#cjs-old-man-treats), 1 per breakfast. Easier to feed when broken up a bit. Carprofen, 50mg each meal (break pills in half) | None |
 
 [^1]: See [bathroom](/docs/pets/scout#litterbox)
 [^2]: Will howl for treats!
@@ -34,7 +34,7 @@ Various issues come up on various occassions. Carprofen and Dynomax on a daily b
 
 ### CJ's Old Man treats
 
-:::note Dynomax
+:::note Dasuquin
 
 One treat per day is for helping keep CJ feel young. Split a treat in half so that he actually eats them. Routinely, we give them to him in the afternoon but anytime once per day is ok
 
