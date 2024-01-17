@@ -62,7 +62,7 @@ export default function PetCard({
   }
 
   return (
-    <Link className={styles.petCard} href={link}>
+    <Link className={styles.petCard} href={link} data-pet={name}>
       <div className={styles.box}>
         <div className="card">
           {imageLink !== undefined && (
