@@ -112,6 +112,9 @@ export default function Home() {
                   <li>
                     Keep CJs heart rate down <i class="fa-solid fa-heart"></i>
                   </li>
+                  <li>
+                    Don't leave alone longer than 6 hours <i class="fa-solid fa-clock"></i>
+                  </li>
                 </ol>
               </div>
             </div>
