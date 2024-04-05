@@ -19,13 +19,15 @@ Each pet requires **food/water**. Feeding is easy!
 | **Allergies** | None                                                   | None                                                                                                                                 | None                                                                                                |
 | **Medicines** | None                                                   | -[Dynomax](#cjs-old-man-treats), 1 per breakfast. Easier to feed when broken up a bit. <br />- Carprofen, 100mg each meal            | None                                                                                                |
 
+[^2]: Will howl for treats!
+
 ## Medicine
 
 Various issues come up on various occasions. Carprofen and Dynomax on a daily basis. Heartguard on the 2nd of every month. Bravecto every 12 weeks. All details below
 
 ### CJ's Old Man treats
 
-:::note Dynomax
+:::note Dasuquin
 
 One treat per day is for helping keep CJ feel young. Split a treat in half so that he actually eats them. Routinely, we give them to him in the afternoon but anytime once per day is ok
 
