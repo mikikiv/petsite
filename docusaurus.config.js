@@ -1,9 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import { themes } from 'prism-react-renderer'
+const { themes } = require('prism-react-renderer')
+const lightTheme = themes.github
 const darkTheme = themes.dracula
-import tailwindPlugin from './plugins/tailwind-config.cjs' // add this
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +17,7 @@ const config = {
   organizationName: 'mikikiv', // Usually your GitHub org/user name.
   projectName: 'petsite', // Usually your repo name.
   noIndex: true,
-  plugins: [tailwindPlugin, require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search')],
   presets: [
     [
       'classic',
@@ -32,6 +32,9 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/mikikiv/petsite/edit/master',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -91,7 +94,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Mikey and Tayler's Petsite, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages: ['bash', 'diff', 'json', 'yaml', 'markdown', 'javascript', 'typescript'],
+        additionalLanguages: ['bash', 'diff', 'json'],
 
         theme: darkTheme,
         darkTheme: darkTheme,
