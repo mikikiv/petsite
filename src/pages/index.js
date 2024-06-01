@@ -1,10 +1,11 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react'
+import clsx from 'clsx'
+import Layout from '@theme/Layout'
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import PetCard from '../components/PetCard'
+import { petsData } from '../data/pets'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
@@ -25,6 +26,7 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -35,55 +37,34 @@ export default function Home() {
         <section className={styles.features}>
           <div className={'container'}>
             <div className={styles.homeContainer}>
-              <PetCard
-                name="CJ"
-                displayBreed={true}
-                displayAge={true}
-                footer={'2 cups of food per day'}
-              >
-                <>
-                  Most favorite things:
-                  <ul>
-                    <li>Walks</li>
-                    <li>Treats</li>
-                    <li>Sniffing</li>
-                    <li>Car rides</li>
-                  </ul>
-                </>
-              </PetCard>
-              <PetCard
-                name="Olympia"
-                displayBreed={true}
-                displayAge={true}
-                footer={'1 cup of food per day'}
-              >
-                <>
-                  Most favorite things:
-                  <ul>
-                    <li>Making noises</li>
-                    <li>Cuddling</li>
-                    <li>Running Fast</li>
-                  </ul>
-                </>
-              </PetCard>
-              <PetCard
-                name="Scout"
-                displayBreed={true}
-                displayAge={true}
-                footer={'1/2 cup of food per day'}
-              >
-                <>
-                  Most Favorite things:
-                  <ul>
-                    <li>Chasing zipties</li>
-                    <li>Sleeping</li>
-                    <li>Eating</li>
-                    <li>Open doors</li>
-                  </ul>
-                </>
-              </PetCard>
+              {petsData
+                .filter((pet) => {
+                  return !pet.death
+                })
+                .map((pet) => {
+                  return (
+                    <PetCard
+                      name={pet.name}
+                      breed={pet.breed}
+                      birthday={pet.birthday}
+                      footer={pet.feeding.amount}
+                      key={pet.name}
+                      href={pet.href}
+                      image={pet.image ?? null}
+                      death={pet.death}
+                    >
+                      <>
+                        Most favorite things:
+                        <ul>
+                          {pet.favoriteThings.map((thing) => (
+                            <li key={thing}>{thing}</li>
+                          ))}
+                        </ul>
+                      </>
+                    </PetCard>
+                  )
+                })}
             </div>
-
             <div
               className="container narrow"
               style={{
@@ -113,7 +94,8 @@ export default function Home() {
                     Keep CJs heart rate down <i class="fa-solid fa-heart"></i>
                   </li>
                   <li>
-                    Don't leave alone longer than 6 hours <i class="fa-solid fa-clock"></i>
+                    Don't leave alone longer than 6 hours{' '}
+                    <i class="fa-solid fa-clock"></i>
                   </li>
                 </ol>
               </div>
