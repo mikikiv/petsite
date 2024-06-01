@@ -20,7 +20,7 @@ export default function PetCard({
   href?: string
   image?: string
   footer?: React.ReactNode
-  death?: string
+  death?: Date
 }) {
   function getAge(dateString: string) {
     var today = new Date()
@@ -31,9 +31,9 @@ export default function PetCard({
       age--
     }
     if (death) {
-      var deathDate = new Date(death)
-      var deathAge = deathDate.getFullYear() - birthDate.getFullYear() - 1
-      return deathAge + ' years (d. ' + deathDate.getFullYear() + ')'
+      death = new Date(death)
+      var deathAge = death.getFullYear() - birthDate.getFullYear() - 1
+      return deathAge + ' years (d. ' + death.getFullYear() + ')'
     }
     return age + ' years old'
   }
