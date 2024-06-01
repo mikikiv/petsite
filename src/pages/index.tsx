@@ -49,7 +49,7 @@ export default function Home() {
                       birthday={pet.birthday}
                       footer={pet.feeding.amount}
                       key={pet.name}
-                      href={pet.href}
+                      href={pet.link ?? null}
                       image={pet.image ?? null}
                       death={pet.death}
                     >
@@ -80,22 +80,24 @@ export default function Home() {
               <div>
                 <ol>
                   <li>
-                    Don't let Scoutie outside <i class="fa-solid fa-cat"></i>
+                    Don't let Scoutie outside{' '}
+                    <i className="fa-solid fa-cat"></i>
                   </li>
                   <li>
                     Make sure Scoutie can access her litterbox{' '}
-                    <i class="fa-solid fa-poo"></i>
+                    <i className="fa-solid fa-poo"></i>
                   </li>
                   <li>
                     Don't let the dogs have access Scoutie's litterbox{' '}
-                    <i class="fa-solid fa-poop"></i>
+                    <i className="fa-solid fa-poop"></i>
                   </li>
                   <li>
-                    Keep CJs heart rate down <i class="fa-solid fa-heart"></i>
+                    Keep CJs heart rate down{' '}
+                    <i className="fa-solid fa-heart"></i>
                   </li>
                   <li>
                     Don't leave alone longer than 6 hours{' '}
-                    <i class="fa-solid fa-clock"></i>
+                    <i className="fa-solid fa-clock"></i>
                   </li>
                 </ol>
               </div>
