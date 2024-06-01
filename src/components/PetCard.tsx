@@ -6,19 +6,21 @@ import Link from '@docusaurus/Link'
 export default function PetCard({
   name,
   children,
-  displayBreed,
-  displayAge: displayBirthday,
+  breed,
+  birthday,
   href,
-  imagePath,
+  image: imagePath,
   footer,
+  death,
 }: {
   name: string
   children: React.ReactNode
-  displayBreed?: boolean
-  displayAge?: boolean
+  breed?: string
+  birthday?: string
   href?: string
-  imagePath?: string
+  image?: string
   footer?: React.ReactNode
+  death?: Date
 }) {
   function getAge(dateString: string) {
     var today = new Date()
@@ -28,73 +30,56 @@ export default function PetCard({
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       age--
     }
+    if (death) {
+      death = new Date(death)
+      var deathAge = death.getFullYear() - birthDate.getFullYear() - 1
+      return deathAge + ' years (d. ' + death.getFullYear() + ')'
+    }
     return age + ' years old'
   }
 
-  let link = href
-  let imageLink = imagePath
-  let birthday = ''
-  let breed = ''
-
-  if (name == undefined) {
-    imageLink = ''
-    link = ''
-    birthday = ''
-    breed = ''
-  }
-  if (name.toLowerCase() === 'cj') {
-    imageLink = '/img/cj.png'
-    link = '/docs/pets/cj'
-    birthday = '2011/07/10'
-    breed = 'German Shepherd'
-  }
-  if (name.toLowerCase() === 'scout') {
-    imageLink = '/img/scout.jpg'
-    link = '/docs/pets/scout'
-    birthday = '2016/05/04'
-    breed = 'cat'
-  }
-  if (name.toLowerCase() === 'olympia') {
-    imageLink = '/img/olympia.jpg'
-    link = '/docs/pets/olympia'
-    birthday = '2019/09/10'
-    breed = 'Basenji Mix'
-  }
-
   return (
-    <Link className={styles.petCard} href={link}>
+    <Link className={styles.petCard} href={href}>
       <div className={styles.box}>
         <div className="card">
-          {imageLink !== undefined && (
+          {imagePath != null && (
             <div className={styles.imageContainer}>
-              <img className={styles.imageStyle} src={imageLink} />
+              <img className={styles.imageStyle} src={imagePath} />
             </div>
           )}
           <div className="card__body">
-            <small
+            <div
               style={{
-                float: 'right',
-                marginTop: '5px',
-                marginBottom: '5px',
+                display: 'flex',
+                justifyContent: 'space-between',
               }}
             >
-              {displayBreed == true && <span>{breed}</span>}
-              {displayBreed == true && displayBirthday == true && (
-                <span> | </span>
+              <h2>{name}</h2>
+              {breed && (
+                <p
+                  style={{
+                    marginBottom: '0px',
+                    marginTop: '5px',
+                    float: 'right',
+                  }}
+                >
+                  <span>{breed}</span>
+                </p>
               )}
-              {displayBirthday == true && getAge(birthday)}
-            </small>
-            <h3 className="">{name}</h3>
+            </div>
+            {birthday && (
+              <p style={{ textAlign: 'right', marginTop: '-15px' }}>
+                {getAge(birthday)}
+              </p>
+            )}
             <div>{children}</div>
-            {footer ? (
+            {footer && (
               <div
                 className="card__footer"
                 style={{ borderTop: '1px solid white' }}
               >
                 {footer}
               </div>
-            ) : (
-              <></>
             )}
           </div>
         </div>
