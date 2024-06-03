@@ -18,17 +18,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.petCard {
-	color: unset;
-	text-decoration: unset;
-	margin: var(--ifm-spacing-horizontal);
-	display: grid;
-	justify-content: center;
-}
-.petCard:hover {
-	color: unset;
-	text-decoration: unset;
-}
+
 .box {
 	border-radius: var(--ifm-card-border-radius);
 	border: 1px solid var(--ifm-color-emphasis-300);
@@ -53,13 +43,7 @@
 	width: auto;
 	text-align: top;
 }
-.imageContainer {
-	flex-basis: auto;
-	display: flex;
-	object-fit: fill;
-	height: inherit;
-	width: auto;
-}
+
 .imageStyle {
 	min-width: 175px;
 	min-height: 250px;

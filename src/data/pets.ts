@@ -47,11 +47,11 @@ export const petsData = [
         "medications": "None",
         "allergies": "None"
       },
-      "favoriteThings": ["Kong", "Tennis Ball"]
+      "favoriteThings": ["wooing", "puzzles", "running"]
     },
     {
       "name": "Teton",
-      "image": "/img/teton.jpg",
+      "image": "",
       "link": "/docs/pets/teton",
       "birthday": "2020/07/10",
       "breed": "Chinchilla",
