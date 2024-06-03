@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from '@site/src/components/styles.module.css'
-import Link from '@docusaurus/Link'
+import React from "react";
+import Link from "@docusaurus/Link";
 
 /* children is where the content of the body goes */
 export default function PetCard({
@@ -9,81 +8,79 @@ export default function PetCard({
   breed,
   birthday,
   href,
-  image: imagePath,
+  image,
   footer,
   death,
+  ...rest
 }: {
-  name: string
-  children: React.ReactNode
-  breed?: string
-  birthday?: string
-  href?: string
-  image?: string
-  footer?: React.ReactNode
-  death?: Date
+  name: string;
+  children: React.ReactNode;
+  breed?: string;
+  birthday?: string;
+  href?: string;
+  image?: string;
+  footer?: React.ReactNode;
+  death?: string;
 }) {
-  function getAge(dateString: string) {
-    var today = new Date()
-    var birthDate = new Date(dateString)
-    var age = today.getFullYear() - birthDate.getFullYear()
-    var m = today.getMonth() - birthDate.getMonth()
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--
+  const age = () => {
+    var today = new Date();
+    var birthDate = new Date(birthday);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var month = today.getMonth() - birthDate.getMonth();
+
+    if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+      age;
     }
-    if (death) {
-      death = new Date(death)
-      var deathAge = death.getFullYear() - birthDate.getFullYear() - 1
-      return deathAge + ' years (d. ' + death.getFullYear() + ')'
+    if (death != undefined) {
+      var birthYear = new Date(birthday).getFullYear();
+      var deathAge =
+        new Date(death).getFullYear() - birthDate.getFullYear() - 1;
+      var deathYear = new Date(death).getFullYear();
+
+      return (
+        <>
+          {`${deathAge} years`}
+          <br />
+          {`(${birthYear} - ${deathYear})`}
+        </>
+      );
     }
-    return age + ' years old'
-  }
+    return age + " years";
+  };
 
   return (
-    <Link className={styles.petCard} href={href}>
-      <div className={styles.box}>
-        <div className="card">
-          {imagePath != null && (
-            <div className={styles.imageContainer}>
-              <img className={styles.imageStyle} src={imagePath} />
+    <Link
+      className="group/petcard m-4 max-w-fit grow text-gray-200 hover:text-blue-200 hover:no-underline"
+      href={href}
+    >
+      <div className="grow rounded-lg border border-solid border-gray-800 group-hover/petcard:bg-gray-800">
+        <div className="grid grid-cols-1">
+          {image ? (
+            <img
+              className={`h-48 w-full rounded-t-md object-cover group-hover/petcard:opacity-70`}
+              src={image}
+            />
+          ) : null}
+          <h2
+            className={`${!image && "rounded-t-lg"} bg-gray-800 p-4 text-center text-xl font-extrabold uppercase group-hover/petcard:bg-slate-200 group-hover/petcard:text-gray-800`}
+          >
+            {name}
+          </h2>
+          <div className="mx-4 mb-4">
+            <div className="grid grid-cols-2">
+              <p className="">{breed && breed}</p>
+              <p className="text-right">{birthday && age()}</p>
             </div>
-          )}
-          <div className="card__body">
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-              }}
-            >
-              <h2>{name}</h2>
-              {breed && (
-                <p
-                  style={{
-                    marginBottom: '0px',
-                    marginTop: '5px',
-                    float: 'right',
-                  }}
-                >
-                  <span>{breed}</span>
-                </p>
-              )}
-            </div>
-            {birthday && (
-              <p style={{ textAlign: 'right', marginTop: '-15px' }}>
-                {getAge(birthday)}
-              </p>
-            )}
-            <div>{children}</div>
+            <div className="">{children}</div>
             {footer && (
-              <div
-                className="card__footer"
-                style={{ borderTop: '1px solid white' }}
-              >
-                {footer}
-              </div>
+              <>
+                <hr />
+                <div className="">{footer}</div>
+              </>
             )}
           </div>
         </div>
       </div>
     </Link>
-  )
+  );
 }

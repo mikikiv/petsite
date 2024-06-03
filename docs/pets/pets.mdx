@@ -2,51 +2,53 @@
 Title: Pets
 hide_title: true
 ---
-import PetCard from '@site/src/components/PetCard'
-import styles from '@site/src/pages/index.module.css'
 
+import PetCard from "@site/src/components/PetCard";
+
+import styles from "@site/src/pages/index.module.css";
+import { petsData } from "@site/src/data/pets";
+import { getPetData } from "@site/src/util/getPetData";
 
 # Pets
 
 These are the pets
-<div className={styles.homeContainer}>
 
-<PetCard
-  name="CJ"
-  href="/docs/pets/cj"
-  image="/img/cj.png"
-  displayBreed={true}
-  displayBirthday={true}
->
-  CJ was born July 20 2011 and been a part of Tayler's family since birth.
-  His parents, Chato and Molia, were part of Tayler's grandparents family
-  and also gave CJ two brothers and a sister who stayed in the family, and
-  5 others that went to other families.
-</PetCard>
-
-<PetCard
-  name="Olympia"
-  href="/docs/pets/olympia"
-  image="/img/olympia.jpg"
-  displayBreed={true}
-  displayBirthday={true}
-  children="Our little monster was born September 2018. She makes funny sounds and
-  can have a ton of energy. We know that she is just the perfect little
-  dog. Just over 40 pounds of pure muscle, don't let her crash into your
-  legs at top speed. And watch for her jumping up to lick your face!" />
-
-<PetCard
-  name="Scout"
-  href="/docs/pets/scout"
-  image="/img/scout.jpg"
-  displayBreed={true}
-  displayBirthday={true}
->
-  Scout was born in 2016 in a truck yard in Southern California. She came
-  to our family as a tiny tiny cat and always ruled the house, until CJ
-  came along. She's social and curious, but has entirely a type-A
-  personality. Belly rubs are requested, she rewards belly rubs with
-  scratches and friendly bites.
-</PetCard>
-
+<div className="container">
+  <div className="grid grid-cols-2 justify-center gap-8">
+    {/* <PetCard
+    name="CJ"
+    href="/docs/pets/cj"
+    image="/img/cj.png"
+  >
+    CJ was born July 20 2011 and been a part of Tayler's family since birth.
+    His parents, Chato and Molia, were part of Tayler's grandparents family
+    and also gave CJ two brothers and a sister who stayed in the family, and
+    5 others that went to other families.
+  </PetCard> */}
+    <PetCard
+      name="Olympia"
+      href="/docs/pets/olympia"
+      image="/img/olympia.jpg"
+      breed={getPetData("Olympia", "breed")}
+      birthday={getPetData("Olympia", "birthday")}
+    >
+      Our little monster was born September 2018. She makes funny sounds and can
+      have a ton of energy. We know that she is just the perfect little dog.
+      Just over 45 pounds of pure muscle, don't let her crash into your legs at
+      top speed. And watch for her jumping up to lick your face!
+    </PetCard>
+    <PetCard
+      name="Scout"
+      href="/docs/pets/scout"
+      image="/img/scout.jpg"
+      breed={getPetData("Scout", "breed")}
+      birthday={getPetData("Scout", "birthday")}
+    >
+      Scout was born in 2016 in a truck yard in Southern California. She came to
+      our family as a tiny tiny cat and always ruled the house, until CJ came
+      along. She's social and curious, but has entirely a type-A personality.
+      Belly rubs are requested, she rewards belly rubs with scratches and
+      friendly bites.
+    </PetCard>
+  </div>
 </div>
