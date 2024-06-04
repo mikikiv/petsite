@@ -34,37 +34,35 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <section className={styles.features}>
-          <div className="m-4 flex flex-wrap justify-center gap-8">
+        <section>
+          <div className="m-4 flex flex-wrap justify-center">
             {petsData
               .filter((pet) => {
                 return !pet.death;
               })
               .map((pet) => {
                 return (
-                  <div className="w-80">
-                    <PetCard
-                      key={pet.name}
-                      name={pet.name}
-                      breed={pet.breed}
-                      birthday={pet.birthday}
-                      footer={pet.feeding.amount}
-                      href={pet.link}
-                      image={pet.image}
-                      death={pet.death}
-                    >
-                      <>
-                        Most favorite things:
-                        <ul>
-                          {pet.favoriteThings.map((thing) => (
-                            <li className="capitalize" key={thing}>
-                              {thing}
-                            </li>
-                          ))}
-                        </ul>
-                      </>
-                    </PetCard>
-                  </div>
+                  <PetCard
+                    key={pet.name}
+                    name={pet.name}
+                    breed={pet.breed}
+                    birthday={pet.birthday}
+                    footer={pet.feeding.amount}
+                    href={pet.link}
+                    image={pet.image}
+                    death={pet.death}
+                  >
+                    <>
+                      Most favorite things:
+                      <ul>
+                        {pet.favoriteThings.map((thing) => (
+                          <li className="capitalize" key={thing}>
+                            {thing}
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  </PetCard>
                 );
               })}
           </div>
