@@ -50,19 +50,19 @@ export default function PetCard({
 
   return (
     <Link
-      className="group/petcard m-4 max-w-fit grow text-gray-200 hover:text-blue-200 hover:no-underline"
+      className="group/petCard m-4 text-gray-200 hover:text-blue-200 hover:no-underline"
       href={href}
     >
-      <div className="grow rounded-lg border border-solid border-gray-800 group-hover/petcard:bg-gray-800">
+      <div className="h-full min-w-80 rounded-lg border border-solid border-gray-800 group-hover/petCard:bg-gray-800">
         <div className="grid grid-cols-1">
           {image ? (
             <img
-              className={`h-48 w-full rounded-t-md object-cover group-hover/petcard:opacity-70`}
+              className={`h-48 w-full rounded-t-md object-cover group-hover/petCard:opacity-70`}
               src={image}
             />
           ) : null}
           <h2
-            className={`${!image && "rounded-t-lg"} bg-gray-800 p-4 text-center text-xl font-extrabold uppercase group-hover/petcard:bg-slate-200 group-hover/petcard:text-gray-800`}
+            className={`${!image && "rounded-t-lg"} bg-gray-800 p-4 text-center text-xl font-extrabold uppercase group-hover/petCard:bg-slate-200 group-hover/petCard:text-gray-800`}
           >
             {name}
           </h2>

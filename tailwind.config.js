@@ -1,4 +1,4 @@
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -6,8 +6,8 @@ module.exports = {
     preflight: false,
     container: false,
   },
-  darkMode: ['class', '[data-theme="dark"]'],
-  content: ['./src/**/*.{jsx,tsx,html}'],
+  darkMode: ["class", '[data-theme="dark"]'],
+  content: ["./src/**/*.{jsx,tsx,html}"],
   theme: {
     extend: {
       fontFamily: {
@@ -16,14 +16,15 @@ module.exports = {
         mono: ['"Fira Code"', ...fontFamily.mono],
       },
       borderRadius: {
-        sm: '4px',
+        sm: "4px",
       },
       screens: {
-        sm: '0px',
-        lg: '997px',
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
       },
       colors: {},
     },
   },
   plugins: [],
-}
+};
