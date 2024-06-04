@@ -42,8 +42,8 @@ export const petsData = [
       "feeding": {
         "amount": "1.5 cups kibble per day",
         "frequency": "Morning and evening",
-        "quirks": "Sneaks food from CJ's bowl. Generally looks uncomfortable while eating. Loves feeding from puzzles..",
-        "treats": "Treats as needed and for fun",
+        "quirks": "Generally looks uncomfortable while eating. Loves feeding from puzzles.. can be picky for no reason sometimes",
+        "treats": "Treats as needed and for fun, will howl for treats!",
         "medications": "None",
         "allergies": "None"
       },
