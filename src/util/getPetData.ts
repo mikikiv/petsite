@@ -1,9 +1,28 @@
-import { petsData, PetsDataType } from "../data/pets";
+import { petsData } from "../data/pets";
 
-export function getPetData(petName: string, obj: keyof PetsDataType): PetsDataType[keyof PetsDataType] | undefined {
+interface Pet {
+  name: string;
+  image: string;
+  link: string;
+  birthday: string;
+  breed: string;
+  death: string;
+  feeding: {
+    amount: string;
+    frequency: string;
+    quirks: string;
+    treats: string;
+    medications: string;
+    allergies: string;
+  };
+  favoriteThings: string[];
+}
+
+
+export function getPetData(petName: string, key: keyof Pet) {
   const pet = petsData.find((pet) => pet.name === petName);
-  if (pet && obj in pet) {
-    return pet[obj];
+  if (pet && key in pet) {
+    return pet[key];
   }
   if (pet) {
     return pet;
