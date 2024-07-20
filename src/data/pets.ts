@@ -4,7 +4,7 @@ export const petsData = [
       "name": "CJ",
       "image": "/img/cj.png",
       "link": "/docs/pets/cj",
-      "birthday": "2011/07/10",
+      "birthday": "2011/07/20",
       "breed": "German Shepherd",
       "death": "2024/04/14",
       "feeding": {
@@ -40,7 +40,7 @@ export const petsData = [
       "birthday": "2019/09/10",
       "breed": "Mini Pit Aussie Mix?",
       "feeding": {
-        "amount": "1.5 cups kibble per day",
+        "amount": "2 cups kibble per day",
         "frequency": "Morning and evening",
         "quirks": "Generally looks uncomfortable while eating. Loves feeding from puzzles.. can be picky for no reason sometimes",
         "treats": "Treats as needed and for fun, will howl for treats!",
